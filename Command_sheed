@@ -15,3 +15,16 @@ type nul > filname.bat # <- New file
 New-Item filname.sh # <- New file
 
 
+
+# HOW TO ECHO MANY LINES ( in one string / command ) 
+
+# echo " this is line one
+> this is line two
+> this is line thre
+> rats, spelling is off" > file.txt
+
+# cat file.txt
+ this is line one
+this is line two
+this is line thre
+rats, spelling is off
