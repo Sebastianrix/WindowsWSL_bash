@@ -32,4 +32,10 @@ rats, spelling is off
 
 
 # Write to file
-echo echo "update %date% %time%">> script.sh
+echo echo "update %date% %time%">> file.sh
+
+
+
+chmod +x myFile
+Run:
+./myFile
