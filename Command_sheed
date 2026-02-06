@@ -8,10 +8,10 @@ adb start-server
 adb devices
 
 # Windows Command Prompt specific
-
+type nul > filname.bat # <- New file
 
 
 # PowerShell specific
+New-Item filname.sh # <- New file
 
 
-New-Item filname.txt # <- New file
