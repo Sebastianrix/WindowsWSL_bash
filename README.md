@@ -1,1 +1,1 @@
-# hobby reppo for Android Termux specific Linux code
+# hobby reppo for Windows/Linux bash commands
