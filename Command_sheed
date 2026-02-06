@@ -28,3 +28,8 @@ New-Item filname.sh # <- New file
 this is line two
 this is line thre
 rats, spelling is off
+
+
+
+# Write to file
+echo echo "update %date% %time%">> script.sh
