@@ -1,0 +1,4 @@
+# Command dump ...
+
+
+adb kill-server
