@@ -6,3 +6,12 @@ adb kill-server
 adb start-server
 
 adb devices
+
+# Windows Command Prompt specific
+
+
+
+# PowerShell specific
+
+
+New-Item filname.txt # <- New file
