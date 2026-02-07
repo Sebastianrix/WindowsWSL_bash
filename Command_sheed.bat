@@ -13,9 +13,19 @@ type nul > filname.bat # <- New file
 New-Item filname.sh # <- New file
 
 
+
+
+
 history
 export
 alias
+
+
+  $var = "HELLO"
+  $myValue = "echo 'stringContent'"
+  echo "${var}"
+  echo "${myValue}"
+
 
 
 # HOW TO ECHO MANY LINES ( in one string / command ) 
