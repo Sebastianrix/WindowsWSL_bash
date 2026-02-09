@@ -19,12 +19,15 @@ New-Item filname.sh # <- New file
 history
 export
 alias
+top 
 fc-list <- check fonts
-<...> | grep KEYWORD <- Search ability
-  $var = "HELLO"
-  $myValue = "echo 'stringContent'"
-  echo "${var}"
-  echo "${myValue}"
+<...> | grep KEYWORD
+
+
+$var = "HELLO"
+$myValue = "echo 'stringContent'"
+echo "${var}"
+echo "${myValue}"
 
 
 
