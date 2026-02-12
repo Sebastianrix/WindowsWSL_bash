@@ -2,6 +2,8 @@
 
 
 # Ubuntu-server
+hostname
+sudo reboot
 lsb_release -a
 uname -a
 
