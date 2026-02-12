@@ -6,6 +6,7 @@ lsb_release -a
 uname -a
 
 
+ip a
 
 
 
