@@ -1,5 +1,15 @@
 # Command dump ...
 
+
+# Ubuntu-server
+lsb_release
+
+
+
+
+
+
+
 ### My Android specific
 adb kill-server
 adb start-server
