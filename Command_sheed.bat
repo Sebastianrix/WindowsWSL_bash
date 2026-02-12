@@ -2,7 +2,7 @@
 
 
 # Ubuntu-server
-lsb_release
+lsb_release -a
 
 
 
