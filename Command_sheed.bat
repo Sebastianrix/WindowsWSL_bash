@@ -3,6 +3,9 @@
 
 # Ubuntu-server
 lsb_release -a
+uname -a
+
+
 
 
 
