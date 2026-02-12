@@ -9,7 +9,8 @@ uname -a
 ip a
 
 
-
+lsblk
+df -h
 
 
 
