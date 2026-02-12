@@ -7,6 +7,7 @@ uname -a
 
 
 ip a
+ping 8.8.8.8
 
 
 lsblk
