@@ -80,3 +80,392 @@ echo echo "update %date% %time%">> file.sh
 chmod +x myFile
 Run:
 ./myFile
+
+
+#ssh
+
+
+# raw dumb (clean later )
+
+Connection to 10.238.116.69 closed.
+~ $ mv sshkey ~/.ssh/id_ed25519
+mv sshkey.pub ~/.ssh/id_ed25519.pub
+chmod 600 ~/.ssh/id_ed25519
+chmod 644 ~/.ssh/id_ed25519.pub
+~ $ ssh sebastian@10.238.116.69
+Enter passphrase for key '/data/data/com.termux/files/home/.ssh/id_ed25519':
+Welcome to Ubuntu 24.04.4 LTS (GNU/Linux 6.8.0-100-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Sat Feb 14 05:16:23 AM UTC 2026
+
+  System load:  0.08              Temperature:             41.0 C
+  Usage of /:   7.4% of 97.87GB   Processes:               133
+  Memory usage: 3%                Users logged in:         1
+  Swap usage:   0%                IPv4 address for wlp3s0: 10.238.116.69
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+0 updates can be applied immediately.
+
+1 additional security update can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+
+Last login: Sat Feb 14 05:13:05 2026 from 10.238.116.23
+sebastian@k8s-control-plane001:~$ history
+    1  echo hi
+    2  dir
+    3  ls
+    4  sudo apt upsate
+    5  sudo apt update
+    6  install cmtrix
+    7  sudo apt install cmtrix
+    8  sudo apt install cmatrix
+    9  dir
+   10  ls
+   11  top
+   12  sudo apt update
+   13  top
+   14  sudo apt update
+   15  install cmatrix
+   16  install sl
+   17  sudo install sl
+   18  lsb_release
+   19  lsb_release -a
+   20  uname -a
+   21  ip a
+   22  lsblk
+   23  df -h
+   24  history
+   25  ping 8.8.8.8
+   26  ls
+   27  sl
+   28  ls
+   29  sudo apt install sl
+   30  sudo nano /etc/systemd/resolved.conf
+   31  sudo systemctl restart systemd-resolved
+   32  ping google.com
+   33  ls /etc/netplan
+   34  sudo nano /etc/netplan/01-*.yaml
+   35  sudo hostnamectl set-hostname k8s-Odin-control-plane)
+   36  sudo hostnamectl set-hostname k8s-Odin-control-plane
+   37  hostname
+   38  sudo hostnamectl set-hostname k8s-control-plane_Odin
+   39  hostname
+   40  sudo nano /etc/hosts
+   41  sudo reboot
+   42  history
+   43  ip a
+   44  ping google.com
+   45  .yaml
+   46  ls
+   47  ls /etc/netplan
+   48  nmcli
+   49  nmclli
+   50  nmcli
+   51  sudo apt install nmcli
+   52  ip address
+   53  ifconfig
+   54  ip address
+   55  nmcli
+   56  ping google.com
+   57  ip address
+   58  sudo apt update
+   59  ping google.com
+   60  ls /etc/netplan
+   61  sudo nano /etc/netplan/50-cloud-init.yaml.yaml
+   62  sudo nano /etc/netplan/01-*.yaml
+   63  ping google.com
+   64  sudo apt update
+   65  ip a
+   66  sudo dpkg-reconfigure console-setup
+   67  p
+   68  cæear
+   69  clea
+   70  clear
+   71  sudo dpkg-reconfigure console-setup
+   72  ctl
+   73  clear
+   74  color
+   75  dir
+   76  cd..
+   77  cd ..
+   78  dir
+   79  cd ..
+   80  dr
+   81  dir
+   82  cd ..
+   83  dir
+   84  cd ..
+   85  root
+   86  cd root
+   87  -bash cd root
+   88  cd root
+   89  force cd root
+   90  cd root force
+   91  cd ..
+   92  dir
+   93  cd home
+   94  dir
+   95  cd ..
+   96  cd sys
+   97  dir
+   98  cd kernel
+   99  dir
+  100  cd config
+  101  dir
+  102  cd pci_ep
+  103  dir
+  104  dir a
+  105  ls a
+  106  la
+  107  cd controllers
+  108  cd
+  109  dir
+  110  ls
+  111  cd ..
+  112  dir
+  113  cd ..
+  114  dir
+  115  ls /
+  116  sudo -i
+  117  hostname
+  118  static hostma,e
+  119  stati hostname
+  120  static hostname
+  121  hostname
+  122  sudo -i
+  123  hostname
+  124  sudo -i
+  125  ls /
+  126  cd etc
+  127  dir
+  128  cd ..
+  129  cd etc
+  130  dir
+  131  cd .. /etc
+  132  cd/etc
+  133  cd /etc
+  134  dir
+  135  cd netplan
+  136  dir
+  137  sudo nano 00-installer-config.yaml
+  138  dir
+  139  sudo netplan apply
+  140  ping 8.8.8.8
+  141  sudo netplan apply
+  142  ip a
+  143  dir
+  144  sudo rm 01-*.yaml
+  145  dir
+  146  sudo rm 50-cloud-init.yaml
+  147  dir
+  148  sudo netplan apply
+  149  ping 8.8.8.8
+  150  sudo chmod 600 /etc/netplan/00-installer-config.yaml
+  151  ls -l /etc/netplan
+  152  sudo netplan apply
+  153  ping 8.8.8.8
+  154  sudo nano 00-installer-config.yaml
+  155  sudo netplan apply
+  156  sudo nano 00-installer-config.yaml
+  157  sudo netplan apply
+  158  sudo nano 00-installer-config.yaml
+  159  sudo netplan apply
+  160  ping 8.8.8.8
+  161  sudo apt update
+  162  sudo apt install -y docker.io
+  163  sudo systemctl enable docker
+  164  sudo systemctl start docker
+  165  sudo usermod -aG docker $sebastian
+  166  echo hi
+  167  docker run hello-world
+  168  sudo usermod -aG docker $USER
+  169  docker run hello-world
+  170  sudo usermod -aG docker sebastian
+  171  docker run hello-world
+  172  groups
+  173  docker run hello-world
+  174  sudo apt update
+  175  sudo apt upgrade
+  176  sudo apt install -y apt transport https ca-certificates curl
+  177  sudo apt install -y apt-transport-https ca-certificates curl
+  178  sudo curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg
+  179  sudo curl -fsSLo /usr/share/keyrings/-kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg
+  180  echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] | sudo tee /etc/apt/  source.list.d/kubernetes.list
+  181  sources.list.d/kubernetes.list
+  182  sudo apt update
+  183  sudo apt install -y kublet kubeadm kubectl
+  184  sudo apt-mark hold kubelet kubeadm kubectl
+  185  sudo swapoff -a
+  186  exit
+  187  reboot
+  188  echo hello win
+  189  ls
+  190  cd ..
+  191  dir
+  192  cd ..
+  193  dir
+  194  cd usr
+  195  dir
+  196  cd games
+  197  dir
+  198  cd #
+  199  exit
+  200  history
+sebastian@k8s-control-plane001:~$ ^C
+sebastian@k8s-control-plane001:~$ exit
+logout
+Connection to 10.238.116.69 closed.
+~ $ istory
+No command istory found, did you mean:
+ Command cstool in package capstone
+ Command sort in package coreutils
+ Command hstr in package hstr
+ Command import in package imagemagick
+ Command jstar in package joe
+ Command jstar in package jupp
+ Command kstart in package kde-cli-tools
+ Command iproxy in package libusbmuxd
+ Command mscore in package musescore
+ Command mhstore in package nmh
+ Command istat in package sleuthkit
+ Command stone in package stone
+ Command stow in package stow
+ Command tor in package tor
+~ $ history
+    1  tree
+    2  pkg install python
+    3  python
+    4  jgdfg vtrhyjvbnuhnmkjml
+    5  python
+    6  apt upgrade
+    7  ls
+    8  pkg install  cmatrix
+    9  cnatrix
+   10  cmatrix
+   11  ./cyber.sh
+   12  nano
+   13  exit
+   14  ./cyber2.sh
+   15  exit
+   16  ./cyber2.sh
+   17  nano cyber2.sh
+   18  ./cyber2.sh
+   19  exit
+   20  sed -i '149c\  printf "%s\n" "--------------------------------"' ap37_recents.sh
+   21  nl -ba ap37_recents.sh | sed -n '145,155p'
+   22  bash ap37_recents.sh
+   23  sed -i '149,150c\  printf "%s\n" "--------------------------------"' ap37_recents.sh
+   24  bash ap37_recents.sh
+   25  nano  ap37_recents.sh
+   26  bash ap37_recents.sh
+   27  nano  ap37_recents.sh
+   28  bash ap37_recents.sh
+   29  ./cyber2.sh
+   30  bash ap37_recents.sh
+   31  ./cyber2.sh
+   32  nano cyber2.sh
+   33  ./cyber2.sh
+   34  nano cyber2.sh
+   35  pkg install emax
+   36  cd ~/ap37
+   37  ls -l user_script.js
+   38  tail -n 5 user_script.js
+   39  pkg install android-tools
+   40  ls -l user_script.js
+   41  forcestop user_script.js
+   42  ssh -T git@github.com
+   43  ssh -T sebastianrix@github.com
+   44  cmtrix
+   45  camtrix
+   46  cmatrix
+   47  git config --global user.name "sebastianrix"
+   48  git config --global user.email "sebastianrix11@gmail.com"
+   49  ssh-keygen -t ed25519 -C "sebastianrix11@gmail.com"
+   50  cat hello.pub
+   51  eval "$(ssh-agent -s)"
+   52  ssh-add hello
+   53  ssh -T git@github.com
+   54  mkdir -p ~/.ssh
+   55  mv hello ~/.ssh/id_ed25519
+   56  mv hello.pub ~/.ssh/id_ed25519.pub
+   57  chmod 700 ~/.ssh
+   58  chmod 600 ~/.ssh/id_ed25519
+   59  chmod 644 ~/.ssh/id_ed25519.pub
+   60  mkdir android_bash
+   61  sl
+   62  ls
+   63  cd android_bash
+   64  echo "# hobby reppo for Android Termux specific Linux code" > README.md
+   65  git init
+   66  git branch -M main
+   67  git add .
+   68  git commit -m "Initial commit"
+   69  git remote add origin git@github.com:Sebastianrix/Android_bash.git
+   70  git push -u origin main
+   71  cd ..
+   72  ls
+   73  openclaw
+   74  openclaw setup
+   75  openclaw start
+   76  openclaw config
+   77  openclaw setup
+   78  openclaw config
+   79  openclaw gateway start --foreground
+   80  git status
+   81  dir
+   82  cd storage
+   83  dir
+   84  cd documents
+   85  ls
+   86  dir
+   87  dir a
+   88  dir -a
+   89  cd ..
+   90  ls
+   91  dir -a
+   92  cd android
+   93  termux-setup-storage
+   94  pkg uprade
+   95  pkg upgrade
+   96  pkg update
+   97  dir
+   98  cd storage
+   99  dir
+  100  cd external-0
+  101  dir
+  102  sl
+  103  ls
+  104  cd ..
+  105  sudo apt update
+  106  pkg sudo apt update
+  107  pkg apt update
+  108  pkg update
+  109  ssh sebastian@172.17.255.255
+  110  ssh sebastian@172.17.255.255 echo Hello from phone
+  111  ssh sebastian@10.238.116.255 echo Hello from phone
+  112  ssh sebastian@10.238.116.69 echo Hello from phone
+  113  ssh sebastian@10.238.116.69 ls/
+  114  ssh sebastian@10.238.116.69 cd ..
+  115  ssh sebastian@10.238.116.69 ls
+  116  ssh-keygen -t ed25519
+  117  [200~ssh-copy-id -i sshkey.pub sebastian@10.238.116.69
+  118  ssh-copy-id -i sshkey.pub sebastian@10.238.116.69
+  119  sh -i ./sshkey 'sebastian@10.238.116.69'
+  120  ssh sebastian@10.238.116.69 ls /
+  121  sh -i ./sshkey 'sebastian@10.238.116.69'
+  122  ssh -i sshkey sebastian@10.238.116.69
+  123* mv
+  124  mv sshkey.pub ~/.ssh/id_ed25519.pub
+  125  chmod 600 ~/.ssh/id_ed25519
+  126  chmod 644 ~/.ssh/id_ed25519.pub
+  127  ssh sebastian@10.238.116.69
+  128  istory
+  129  history
+~ $
