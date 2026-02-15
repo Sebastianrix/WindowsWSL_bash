@@ -13,6 +13,13 @@ ip a
 ping 8.8.8.8
 
 
+
+
+ssh sebastian@10.30.134.69
+who
+h
+
+
 lsblk
 df -h
 
