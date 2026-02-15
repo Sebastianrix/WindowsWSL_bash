@@ -20,17 +20,17 @@ ssh sebastian@10.30.134.69
 who
 h
 
-### Kubernetes commands 
-curl -sfL https://get.k3s.io | sh -s - server --cluster-init
-# This creates a control plane with embedded etcd
+# Check if your node is now Ready
+kubectl get nodes
 
-# Get the node token (needed for worker nodes later)
-sudo cat /var/lib/rancher/k3s/server/node-token
+# Check all pods in the cluster
+kubectl get pods -A
 
-# Verify K3s is running
-sudo k3s kubectl get nodes
+# Enable Hubble (observability UI)
+cilium hubble enable --ui
 
-
+# Verify Cilium connectivity
+cilium connectivity test --test-concurrency 1 --all-flows
 
 
 ### My Android specific
