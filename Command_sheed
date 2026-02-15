@@ -13,15 +13,22 @@ ip a
 ping 8.8.8.8
 
 
-
+lsblk
+df -h
 
 ssh sebastian@10.30.134.69
 who
 h
 
+### Kubernetes commands 
+curl -sfL https://get.k3s.io | sh -s - server --cluster-init
+# This creates a control plane with embedded etcd
 
-lsblk
-df -h
+# Get the node token (needed for worker nodes later)
+sudo cat /var/lib/rancher/k3s/server/node-token
+
+# Verify K3s is running
+sudo k3s kubectl get nodes
 
 
 
