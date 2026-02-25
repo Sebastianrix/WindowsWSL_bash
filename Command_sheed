@@ -482,4 +482,7 @@ No command istory found, did you mean:
   127  ssh sebastian@10.238.116.69
   128  istory
   129  history
-~ $
+~ 
+
+
+sudo virsh net-list --all
